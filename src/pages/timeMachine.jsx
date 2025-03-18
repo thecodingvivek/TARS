@@ -21,7 +21,7 @@ const TimeMachine = () => {
   const timePeriods = [
     { 
       start: 1990, end: 2000, 
-      era: "Digital", 
+      era: "Vintage", 
       primaryColor: "#222222", 
       secondaryColor: "#666666",
       glowColor: "#FFFFFF",
