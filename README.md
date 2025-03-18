@@ -1,12 +1,26 @@
-# React + Vite
+# The Evolution of UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🏆 Event Name
+*DEVX: CODE. CREATE. CONQUER.*
 
-Currently, two official plugins are available:
+## 👨‍💻👩‍💻 Team Name
+*TARS*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Problem Statement
+*Problem Statement #2* - Explore how web design has evolved through the years! This interactive website lets users experience design trends from different eras.
 
-## Expanding the ESLint configuration
+## 🚀 Project Overview
+*The Evolution of UI* So what if we have a time machine to go back and experience vintage pages so this is our idea
+s.TARS is an interactive web application that showcases the transformation of web design across different internet eras. Users can explore and experience UI styles from the 90s Web 1.0, early 2000s skeuomorphic design, and modern minimalism.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## 🛠 Tech Stack Used
+- *Frontend:* React.js
+- *Styling:* Tailwind CSS
+- *Markup:* HTML5
+
+## ⚙ Setup Instructions
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/evolution-of-ui.git
