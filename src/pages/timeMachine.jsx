@@ -30,7 +30,7 @@ const TimeMachine = () => {
     },
 
     { 
-      start: 2000, end: 2005, 
+      start: 2000, end: 2010, 
       era: "Digital", 
       primaryColor: "#222222", 
       secondaryColor: "#666666",
@@ -39,7 +39,7 @@ const TimeMachine = () => {
       fontStyle: "sans"
     },
     { 
-      start: 2005, end: 2025, 
+      start: 2010, end: 2025, 
       era: "Minimalist", 
       primaryColor: "#0A0A0A", 
       secondaryColor: "#777777",
@@ -268,14 +268,14 @@ const TimeMachine = () => {
             {timePeriods.map((period, index) => (
               <span key={index} className={`${getFontStyle()}`}>{period.start}</span>
             ))}
-            <span className={`${getFontStyle()}`}>2100</span>
+            <span className={`${getFontStyle()}`}>2025</span>
           </div>
           
           <div className="relative h-10 mb-2">
             <input
               type="range"
-              min="1900"
-              max="2100"
+              min="1990"
+              max="2025"
               value={year}
               onChange={handleChange}
               className="absolute w-full h-1 appearance-none cursor-pointer bg-transparent z-10"
