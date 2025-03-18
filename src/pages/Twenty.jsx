@@ -10,8 +10,7 @@ const Twenty = () => {
       <nav className="fixed top-0 w-full bg-black/80 z-10 flex justify-between items-center p-3 px-5">
       
         <div className="nav-logo">
-          <div className='applelogo w-5'></div>
-          <img src="/src/assets/apple-logo.png" alt="Apple Logo" className="w-5" />
+          <div className='applelogo w-[40px] h-[40px]'></div>
         </div>
         <ul className="flex space-x-6">
           <li><a href="#" className="text-sm text-white/90 hover:text-white">Mac</a></li>
