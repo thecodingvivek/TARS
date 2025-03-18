@@ -4,9 +4,11 @@ import Button from './Button';
 
 const Twenty = () => {
   return (
-    <div className="bg-black text-white min-h-screen font-sans w-screen h-screen overflow-hidden">
-      <Button />
+    <div className="relative bg-black text-white min-h-screen font-sans w-screen h-screen overflow-hidden">
+      <div onClick={()=>location.reload()} className='absolute z-[999] top-[10px] right-[10px] w-[200px] h-[40px] bg-white flex rounded-full items-center justify-center cursor-pointer'><span className='text-black text-[12px] font-semibold'>Back</span></div>
+
       <nav className="fixed top-0 w-full bg-black/80 z-10 flex justify-between items-center p-3 px-5">
+      
         <div className="nav-logo">
           <div className='applelogo w-5'></div>
           <img src="/src/assets/apple-logo.png" alt="Apple Logo" className="w-5" />
