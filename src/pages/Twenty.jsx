@@ -1,11 +1,14 @@
 // iPhoneXS.jsx
 import React from 'react';
+import Button from './Button';
 
 const Twenty = () => {
   return (
     <div className="bg-black text-white min-h-screen font-sans w-screen h-screen overflow-hidden">
+      <Button />
       <nav className="fixed top-0 w-full bg-black/80 z-10 flex justify-between items-center p-3 px-5">
         <div className="nav-logo">
+          <div className='applelogo w-5'></div>
           <img src="/src/assets/apple-logo.png" alt="Apple Logo" className="w-5" />
         </div>
         <ul className="flex space-x-6">
