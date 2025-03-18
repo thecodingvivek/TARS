@@ -39,8 +39,8 @@ const NinetyFive = () => {
         <div className="mb-5 border-2 border-black p-2 bg-blue-50">
           <h2 className="playtext text-sm playtext text-blue-800 mb-2">Today’s Featured Game</h2>
           <div className="flex items-center">
-            <img src="/src/assets/game.png" alt="Bejeweled 2" className="w-[300px] mr-2" />
-            <div>
+          <div className="bejwed2 w-[350px] h-[200px] mr-2"></div>
+          <div>
               <h3 className="playtext text-xs">Bejeweled 2</h3>
               <p className="playtext text-xs playtext text-red-800">New game pieces, dazzling effects, and awe-inspiring planetary backdrops. <a href="#" className="playtext text-blue-600 hover:underline">Play Now!</a></p>
             </div>

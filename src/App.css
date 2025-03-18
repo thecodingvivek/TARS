@@ -75,3 +75,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bejwed2
+{
+    background-image: url("/src/assets/game.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
