@@ -10,8 +10,7 @@
 *Problem Statement #2* - Explore how web design has evolved through the years! This interactive website lets users experience design trends from different eras.
 
 ## 🚀 Project Overview
-*The Evolution of UI* So what if we have a time machine to go back and experience vintage pages so this is our idea
-s.TARS is an interactive web application that showcases the transformation of web design across different internet eras. Users can explore and experience UI styles from the
+So what if we have a time machine to go back and experience vintage pages in the internet so this is our idea *TARS*.TARS is an interactive web application that showcases the transformation of web design across different internet eras. Users can explore and experience UI styles from the
 - (1990-2000) 90s Web 1.0
 - (2001 - 2010) early 2000s skeuomorphic design,
 - (2011 - 2025) modern minimalism.
