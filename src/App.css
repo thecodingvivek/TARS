@@ -68,3 +68,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.robinhood{
+    background-image: url("/src/assets/robin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

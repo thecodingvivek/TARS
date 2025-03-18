@@ -57,8 +57,8 @@ const NinetyFive = () => {
         <div className="mb-5 border-2 border-black p-2 bg-blue-50">
           <h3 className="playtext text-sm playtext text-blue-800">Downloadable Games</h3>
           <div className="flex gap-2 mt-2">
-            <img src="/src/assets/robin.png" alt="Magic Ball 2" className="w-[300px]" />
-            <img src="/src/assets/robin.png" alt="Magic Ball 2" className="w-[300px]" />
+            <div className="robinhood w-[300px] h-[200px] mr-2"></div>
+            <div className="robinhood w-[300px] h-[200px] mr-2"></div>
           </div>
           <p><a href="#" className="playtext text-xs playtext text-blue-600 hover:underline">More Downloadable Games...</a></p>
         </div>
