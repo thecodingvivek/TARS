@@ -1,9 +1,11 @@
 import React from "react";
+import Button from "./Button";
 
 const NinetyFive = () => {
-
+  
   return (
     <div className="flex w-screen bg-white playtext text-black">
+      <Button />
       {/* Sidebar */}
       <aside className="w-52 bg-indigo-100 p-2 border-r-2 border-black h-screen overflow-y-auto">
         <h2 className="playtext text-lg playtext text-blue-800 mb-2 playtext text-center">Macintosh! Games</h2>

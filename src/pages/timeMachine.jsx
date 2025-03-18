@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Nighty from './Nighty';
 import NinetyFive from './NinetyFive';
 import Twenty from './Twenty';
-import TwentyTen from './TwentyTen';
+
 
 const TimeMachine = () => {
   const [year, setYear] = useState(2000);
@@ -20,34 +20,17 @@ const TimeMachine = () => {
   // Time periods data with monochromatic design
   const timePeriods = [
     { 
-      start: 1900, end: 1919, 
-      era: "Belle Époque", 
-      primaryColor: "#000000", 
-      secondaryColor: "#333333",
-      glowColor: "#DDDDDD",
-      machineType: "classic",
-      fontStyle: "serif"
+      start: 1990, end: 2000, 
+      era: "Digital", 
+      primaryColor: "#222222", 
+      secondaryColor: "#666666",
+      glowColor: "#FFFFFF",
+      machineType: "modern",
+      fontStyle: "sans"
     },
+
     { 
-      start: 1920, end: 1949, 
-      era: "Art Deco", 
-      primaryColor: "#111111", 
-      secondaryColor: "#444444",
-      glowColor: "#EEEEEE",
-      machineType: "mechanical",
-      fontStyle: "deco"
-    },
-    { 
-      start: 1950, end: 1979, 
-      era: "Modernist", 
-      primaryColor: "#1A1A1A", 
-      secondaryColor: "#555555",
-      glowColor: "#F5F5F5",
-      machineType: "mid-century",
-      fontStyle: "modern"
-    },
-    { 
-      start: 1980, end: 2019, 
+      start: 2000, end: 2005, 
       era: "Digital", 
       primaryColor: "#222222", 
       secondaryColor: "#666666",
@@ -56,7 +39,7 @@ const TimeMachine = () => {
       fontStyle: "sans"
     },
     { 
-      start: 2020, end: 2025, 
+      start: 2005, end: 2025, 
       era: "Minimalist", 
       primaryColor: "#0A0A0A", 
       secondaryColor: "#777777",
