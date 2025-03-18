@@ -56,7 +56,7 @@ const TimeMachine = () => {
       fontStyle: "sans"
     },
     { 
-      start: 2020, end: 2100, 
+      start: 2020, end: 2025, 
       era: "Minimalist", 
       primaryColor: "#0A0A0A", 
       secondaryColor: "#777777",

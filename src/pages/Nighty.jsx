@@ -1,8 +1,10 @@
 import React from 'react'
+import Button from './Button'
 
 const Nighty = () => {
   return (
     <div className='w-screen h-screen bg-[#f1f1f1] flex items-center justify-center'>
+        <Button />
         <div className='mainWrapper_1990 w-[700px] h-[400px] p-1'>
             <div className="minWrapper_1990 w-full h-full flex p-2 gap-[8px]">
                 <div className="imgwrapper_1990 w-[40%] h-full"></div>

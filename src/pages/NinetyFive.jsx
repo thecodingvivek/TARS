@@ -1,6 +1,7 @@
 import React from "react";
 
 const NinetyFive = () => {
+
   return (
     <div className="flex w-screen bg-white playtext text-black">
       {/* Sidebar */}
