@@ -1,1 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Press+Start+2P&display=swap');
+
 @import "tailwindcss";
+
+.mainWrapper_1990{
+    border: 1px #000;
+    border-style: inset ;
+}
+
+.minWrapper_1990{
+    border:2px solid #000;
+}
+
+.imgwrapper_1990{
+    background-image: url("/src/assets/1990.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.head1990{
+    font-family: "Cinzel", serif;
+    letter-spacing: 0.5;
+    line-height: 1;
+}
+
+.subhead1990{
+    font-family: "Cinzel", serif;
+}
+
+
+
+
+.img_2000{
+    background-image: url("/src/assets/2000.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text_2000{
+    font-family: "Cinzel", serif;
+    letter-spacing: 0.5;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.iphonexs_bg{
+    background-image: url("/src/assets/iphonexs.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(100%);
+}
+
+.playtext{
+    font-family: "Press Start 2P", system-ui;
+}
+
+.slider{
+
+}

@@ -1,9 +1,12 @@
 import './App.css'
+import Nighty from './pages/Nighty'
 
 function App() {
   return (
     <>
-      <div className="mainwrapper w-screen h-screen bg-amber-300"></div>
+      <div className="mainwrapper w-screen h-screen bg-white">
+        
+      </div>
     </>
   )
 }
