@@ -58,8 +58,8 @@
 }
 
 .slider{
-    transform: translateY(1000px);
-
+    transform: translateX(1000px);
+    
 }
 
 .applelogo{

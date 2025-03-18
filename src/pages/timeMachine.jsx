@@ -76,14 +76,23 @@ const TimeMachine = () => {
   const handleTimeTravel = () => {
     if(year<2000)
     {
-      setPage(1);
+      setIsTimeJumping(true);
+      setTimeout(() => {
+        setPage(1);
+      }, 1000);
     }
     else if(year>=2000 && year < 2010)
     {
-      setPage(2);
+      setIsTimeJumping(true);
+      setTimeout(() => {
+        setPage(2);
+      }, 1000);
     }
     else{
-      setPage(3);
+      setIsTimeJumping(true);
+      setTimeout(() => {
+        setPage(3);
+      }, 1000);
     }
   };
 
